@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: slategray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article > aside{
+            color: yellow;
+        }
+        h1{
+            text-align: center;
+            margin: auto;
+            
+        }
+        h2{
+            margin: auto;
+            text-align: center;
+        }
+        article > p{
+            background-color: white;
+        }
+        header{
+            padding: 100px;
+            background-color: darkgreen;
+        }
+        nav{
+            text-align: center;
+            background-color: white;
+            width: 170px;
+            margin: auto;
+            box-shadow: 8px 11px 1px rgba(0, 0, 0, 0.228);
+            border-radius: 5px 0px;
+            
+        }
+        nav > a:hover{
+            background-color: greenyellow;
+            
+        }
+        nav > a{
+            border: 30px;
+            text-decoration: none;
+
+        }
+        section > article{
+            text-align: center;
+        }
+        #noticia{
+            background-color: aquamarine;
+        }
+        footer{
+            text-align: right;
+            background-color: black;
+            color: white;
+        }
+        #link1{
+            text-decoration: none;
+        }
+        main{
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Esporte, Cultura e Lazer</h2>
+            <article>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum fuga fugiat, ab deserunt quam nemo, nisi at enim omnis voluptatibus totam. Omnis facere vel quis soluta excepturi repudiandae <a id="link1" href="#">ducimus vero</a>!</p>
+            </article>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p id="noticia">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit repudiandae voluptates, dolores optio iste odio accusamus nemo facere fuga eius quos minus ipsum corrupti aperiam commodi ea amet consequatur? Accusantium?</p>
+                <aside id="autor">
+                    <p>Escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Felipe B.</p>
+    </footer>
+</body>
+</html>
