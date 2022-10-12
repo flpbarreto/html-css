@@ -4,25 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
+            /*
             height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
-        }
+            background-attachment: fixed;
 
+            Shorthand background
+            
+            color - imagem - position - repeat - size - attachment
+            
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
+        }
+        
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
         }
     </style>
 </head>
+
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
@@ -38,6 +50,10 @@
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque commodi quidem, perspiciatis quam tempora quibusdam voluptates aut blanditiis consequatur. Veritatis porro nesciunt minima ratione quasi autem pariatur quis velit possimus!<br>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem aperiam doloribus dolorem ipsa labore omnis, a facilis odio neque tempore praesentium aspernatur amet quo optio possimus porro fugit ab. Obcaecati.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia vitae autem est beatae, molestias quidem dicta distinctio minima dignissimos praesentium, laborum, quas totam accusantium eum nesciunt voluptatum? Mollitia, quidem quis! <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor delectus cumque perferendis earum, magni non voluptates. Quia consequuntur aliquid, assumenda earum at culpa vel distinctio aperiam quasi maiores commodi facere?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum voluptas recusandae eius, magnam obcaecati aliquid molestiae voluptates dicta quaerat doloribus possimus ab harum, ipsa assumenda provident! Distinctio ab hic laborum!
         </p>
     </main>
 </body>
