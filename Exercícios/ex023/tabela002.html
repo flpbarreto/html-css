@@ -13,6 +13,7 @@
         table{
             width: 400px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th{
@@ -31,6 +32,12 @@
 
         tbody tr:nth-child(odd){
             background-color: lightseagreen;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: blueviolet;
         }
 
         caption{
@@ -64,6 +71,7 @@
             <th scope="col">Estado</th>
             <th scope="col" style="width: 50px;">População</th>
         </thead>
+
         <tbody>
             <tr>
                 <td>São Paulo</td>
@@ -174,12 +182,26 @@
                 <td class="num">652 713</td>
             </tr>
         </tbody>
+
         <tfoot>
             <tr>
                 <th scope="row">Total de Habitantes</th>
                 <td class="num">0000</td>
             </tr>
         </tfoot>
+ 
     </table>
+
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis nesciunt praesentium, provident dolorem numquam dolore assumenda quo nisi blanditiis debitis iste dicta impedit? Explicabo error dolor dolorem, consequuntur a obcaecati?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure quod amet molestiae magni repellendus reprehenderit quibusdam a eum debitis. Vero veritatis vel tenetur laborum magni quas odit nesciunt aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae optio quasi voluptatum quo impedit. Dolorum corrupti ullam, quod vel nemo iusto ipsa autem saepe obcaecati officiis, vero numquam odio incidunt.
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis nesciunt praesentium, provident dolorem numquam dolore assumenda quo nisi blanditiis debitis iste dicta impedit? Explicabo error dolor dolorem, consequuntur a obcaecati?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure quod amet molestiae magni repellendus reprehenderit quibusdam a eum debitis. Vero veritatis vel tenetur laborum magni quas odit nesciunt aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae optio quasi voluptatum quo impedit. Dolorum corrupti ullam, quod vel nemo iusto ipsa autem saepe obcaecati officiis, vero numquam odio incidunt.
+    </p>
+    
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis nesciunt praesentium, provident dolorem numquam dolore assumenda quo nisi blanditiis debitis iste dicta impedit? Explicabo error dolor dolorem, consequuntur a obcaecati?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure quod amet molestiae magni repellendus reprehenderit quibusdam a eum debitis. Vero veritatis vel tenetur laborum magni quas odit nesciunt aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae optio quasi voluptatum quo impedit. Dolorum corrupti ullam, quod vel nemo iusto ipsa autem saepe obcaecati officiis, vero numquam odio incidunt.
+    </p>
 </body>
 </html>
