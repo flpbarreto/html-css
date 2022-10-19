@@ -31,11 +31,24 @@
             vertical-align: middle;
             padding: 8px;
         }
+
+        .grupo{
+            background-color: lightgreen;
+        }
+
+        .idade{
+            background-color: lightyellow;
+        }
     </style>
 </head>
 <body>
     <h1>Exercício de Tabela</h1>
     <table>
+        <colgroup>
+            <col class="grupo" span="2">
+            <col class="idade">
+            <col class="profissão">
+        </colgroup>
         <caption>Cadastro</caption>
         <thead>
             <tr>
@@ -55,17 +68,17 @@
             </tr>
 
             <tr>
-                <td>Ana Maria</td>
-                <td>F</td>
-                <td>25</td>
-                <td>Jornalista</td>
+                <td>Felipe</td>
+                <td>M</td>
+                <td>24</td>
+                <td>DEV</td>
             </tr>
 
             <tr>
-                <td>Ana Maria</td>
-                <td>F</td>
-                <td>25</td>
-                <td>Jornalista</td>
+                <td>Alef</td>
+                <td>M</td>
+                <td>26</td>
+                <td>Engenheiro de Produção</td>
             </tr>
         </tbody>
     </table>
